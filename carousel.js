@@ -7,23 +7,23 @@ class Carousel {
     this.carouselData = [
       {
         'id': '1',
-        'src': 'carousel/one.html',
+        'src': 'https://dingdilly.scriptdogg.com/cdn/vanilla-js-carousel/carousel/one.html',
       },
       {
         'id': '2',
-        'src': 'carousel/two.html',
+        'src': 'https://dingdilly.scriptdogg.com/cdn/vanilla-js-carousel/carousel/two.html',
       },
       {
         'id': '3',
-        'src': 'carousel/three.html',
+        'src': 'https://dingdilly.scriptdogg.com/cdn/vanilla-js-carousel/carousel/three.html',
       },
       {
         'id': '4',
-        'src': 'carousel/four.html',
+        'src': 'https://dingdilly.scriptdogg.com/cdn/vanilla-js-carousel/carousel/four.html',
       },
       {
         'id': '5',
-        'src': 'carousel/five.html',
+        'src': 'https://dingdilly.scriptdogg.com/cdn/vanilla-js-carousel/carousel/five.html',
       }
     ];
     this.carouselInView = [1, 2, 3, 4, 5];
