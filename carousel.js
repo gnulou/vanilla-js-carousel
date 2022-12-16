@@ -7,23 +7,23 @@ class Carousel {
     this.carouselData = [
       {
         'id': '1',
-        'src': 'http://fakeimg.pl/300/?text=1',
+        'src': 'carousel/one.html',
       },
       {
         'id': '2',
-        'src': 'http://fakeimg.pl/300/?text=2',
+        'src': 'carousel/two.html',
       },
       {
         'id': '3',
-        'src': 'http://fakeimg.pl/300/?text=3',
+        'src': 'carousel/three.html',
       },
       {
         'id': '4',
-        'src': 'http://fakeimg.pl/300/?text=4',
+        'src': 'carousel/four.html',
       },
       {
         'id': '5',
-        'src': 'http://fakeimg.pl/300/?text=5',
+        'src': 'carousel/five.html',
       }
     ];
     this.carouselInView = [1, 2, 3, 4, 5];
@@ -47,7 +47,7 @@ class Carousel {
 
     // Take dataset array and append items to container
     this.carouselData.forEach((item, index) => {
-      const carouselItem = item.src ? document.createElement('img') : document.createElement('div');
+      const carouselItem = item.src ? document.createElement('iframe') : document.createElement('div');
 
       container.append(carouselItem);
       
